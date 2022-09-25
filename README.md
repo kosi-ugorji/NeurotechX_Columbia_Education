@@ -69,6 +69,7 @@ https://forms.gle/cJ2r6v8TA2eY7FqA6
 
 # Module 4: Current Projects
 ## SSVEP 
+- Paper we base our project on: https://ieeexplore.ieee.org/document/5378643
 - Github repo: https://github.com/Neurotech-X-Columbia/SSVEP-Speller 
 - Understanding Visually evoked potentials (optional) : https://www.youtube.com/watch?v=YctzfiBqUiU 
 - SSVEP reading: https://en.wikipedia.org/wiki/Steady_state_visually_evoked_potential 
