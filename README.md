@@ -23,6 +23,7 @@ Interactive text-based
 ## EVALUATION:
 Pull this repo unto your local and make changes to the PythonEvaluation file as instructed in the comments. Then complete this form: https://forms.gle/gFBrmiG6gwX69KXK7
 
+### FEEDBACK : https://forms.gle/sBhP3aKLqYA4wm7o8
 
 # Module 2: Learn GitHub
 
@@ -41,6 +42,8 @@ Extra Resources:
 
 ## EVALUATION:
 Write your uni in the GithubEvaluation file in this repo. 
+
+### FEEDBACK: https://forms.gle/QsryRgZKp43m3eLz8
 
 # Module 3: Intro to Neurotech
 ## What is Neurotech
@@ -67,6 +70,8 @@ https://drive.google.com/file/d/17vbfBPjBYvDIonOkqhtpN2GpAfIGth9v/view?usp=shari
 ## EVALUATION(Module 3): 
 https://forms.gle/cJ2r6v8TA2eY7FqA6
 
+### FEEDBACK:https://forms.gle/gxPKvmuP5u9MsD596
+
 # Module 4: Current Projects
 ## SSVEP 
 - Paper we base our project on: https://ieeexplore.ieee.org/document/5378643
@@ -79,3 +84,9 @@ https://forms.gle/cJ2r6v8TA2eY7FqA6
 - Github repo: https://github.com/Neurotech-X-Columbia/Drone
 - Intro slides: https://docs.google.com/presentation/d/15gTw6e7mMhJTEPjdsZzMmgOXlkEsU7tOTSzbFuE0ZoY/edit?usp=sharing
 
+### FEEDBACK: https://forms.gle/5vqS4QHhokLukWFL8
+
+# QUESTIONS:
+Submit your questions using this form:
+https://forms.gle/7FtPnUqx3Jct7xq26
+or on the Education channel in slack. 
