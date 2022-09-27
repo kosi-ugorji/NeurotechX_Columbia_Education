@@ -30,10 +30,10 @@ Step 2: Set a variable called area to the area of a triangle calculated using
 height = 2
 li = [2,3,4]
 
-avg = #to fill 
+avg = sum(li) / len(li)
+area = 0.5 * height * avg
 
-area = #to fill 
-
+print(avg, area)
 
 '''!!! Do not edit this'''
 A = q1.check(area, avg)
@@ -50,7 +50,12 @@ Given a random number- random_int determine if this number is in the forbidden_l
 
 random_int = random.randint(1,10)
 forbidden_list = [3,4,5]
-#your code here 
+
+# The following boolean variable checks if the number is in the list.
+# Does it need to be passed into the q2.check function as an argument?
+in_forbidden_list = random_int in forbidden_list 
+
+print(in_forbidden_list)
 
 B = q2.check(random_int, forbidden_list)
 
@@ -68,12 +73,18 @@ The difference would be li1-li2:
 
 NOTE: To get this right, make sure to call your list diff
 """
-diff = []
+
 li1 = [1, 5, 6, 7]
 li2 = [1, 7, 8, 9]
+diff = []    # Alternatively this would also work in a single line:  diff = list(map(lambda x, y: x - y, li1, li2))
 
 # create a loop that goes through each element and computes a difference
 
+# Assuming that both lists are of the same size:
+for i in range(len(li1)):
+    diff.append(li1[i] - li2[i])
+
+print(diff)
 
 '''Don't edit this '''
 C = q3.check(li1, li2, diff)
@@ -90,12 +101,18 @@ Step 2: Assign each name in the names_list to the set forged_data_list.
 (all keys are mapped to the same value- think about if this is possible in the reverse case)
 
 """
-neames = ["Sarah", "John"]
+names = ["Sarah", "John"]
 forged_data_list = [1,1,2,3,4,5,5,6,6,7]
 
-forged_data_set = #implement this 
+forged_data_set = set(forged_data_list)
 
-names_dict = #implement this
+names_dict = dict([(name, forged_data_set) for name in names])
+
+# The reverse case would not be possible since it would result in duplicate keys.
+# A dictionary does not allow duplicate keys.
+
+print(forged_data_set)
+print(names_dict)
 
 '''Don't edit this '''
 D = q4.check(li1, li2, diff) 
@@ -111,8 +128,7 @@ Make a function that adds two numers x1 and x2.
 """
 
 def addTwo(x1, x2):
-    #your function here
-    
+    return x1 + x2
     
 E = q5.check(addTwo)
 
@@ -131,6 +147,11 @@ Note here that numpy has already been imported as np here.
 """
 
 li_of_li = [[1,2,3], [0,4,5], [3,4,5]]
+
+numpy_list = np.array(li_of_li)
+val = numpy_list[1][2]
+
+print(val)
 
 F = q6.check(li_of_li)
 
