@@ -5,7 +5,7 @@ import numpy as np
 
 '''
 IMPORTANT
-To submit, go to the google form (https://docs.google.com/forms/d/e/1FAIpQLSfgPg7FNCTqhb8DGHDQQq4Lhxf8jLiexdgZbg6SSGAGQjl3vg/viewform?usp=sf_link_)
+To submit, go to the google form (https://docs.google.com/forms/d/e/1FAIpQLSfgPg7FNCTqhb8DGHDQQq4Lhxf8jLiexdgZbg6SSGAGQjl3vg/viewform?usp=sf_link)
  and upload a picture of the output you receive when you run your code
 '''
 
@@ -33,10 +33,8 @@ li = [2,3,4]
 avg = sum(li) / len(li)
 area = 0.5 * height * avg
 
-print(avg, area)
+area = #to fill 
 
-'''!!! Do not edit this'''
-A = q1.check(area, avg)
 
 
 
@@ -57,7 +55,6 @@ in_forbidden_list = random_int in forbidden_list
 
 print(in_forbidden_list)
 
-B = q2.check(random_int, forbidden_list)
 
 
 """
@@ -86,10 +83,6 @@ for i in range(len(li1)):
 
 print(diff)
 
-'''Don't edit this '''
-C = q3.check(li1, li2, diff)
-
-
 
 """ 
 Part 4: Dictionaries and Sets
@@ -114,8 +107,6 @@ names_dict = dict([(name, forged_data_set) for name in names])
 print(forged_data_set)
 print(names_dict)
 
-'''Don't edit this '''
-D = q4.check(li1, li2, diff) 
 
 
 
@@ -129,9 +120,6 @@ Make a function that adds two numers x1 and x2.
 
 def addTwo(x1, x2):
     return x1 + x2
-    
-E = q5.check(addTwo)
-
 
 
 """
@@ -155,6 +143,3 @@ print(val)
 
 F = q6.check(li_of_li)
 
-'''Final Evaluation ''' 
-
-print(A&B&C&D&E&F)
