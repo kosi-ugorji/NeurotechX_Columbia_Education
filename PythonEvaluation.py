@@ -5,7 +5,7 @@ import numpy as np
 
 '''
 IMPORTANT
-To submit, go to the google form (https://docs.google.com/forms/d/e/1FAIpQLSfgPg7FNCTqhb8DGHDQQq4Lhxf8jLiexdgZbg6SSGAGQjl3vg/viewform?usp=sf_link_)
+To submit, go to the google form (https://docs.google.com/forms/d/e/1FAIpQLSfgPg7FNCTqhb8DGHDQQq4Lhxf8jLiexdgZbg6SSGAGQjl3vg/viewform?usp=sf_link)
  and upload a picture of the output you receive when you run your code
 '''
 
@@ -35,9 +35,6 @@ avg = #to fill
 area = #to fill 
 
 
-'''!!! Do not edit this'''
-A = q1.check(area, avg)
-
 
 
 """
@@ -50,9 +47,7 @@ Given a random number- random_int determine if this number is in the forbidden_l
 
 random_int = random.randint(1,10)
 forbidden_list = [3,4,5]
-#your code here 
 
-B = q2.check(random_int, forbidden_list)
 
 
 """
@@ -75,10 +70,6 @@ li2 = [1, 7, 8, 9]
 # create a loop that goes through each element and computes a difference
 
 
-'''Don't edit this '''
-C = q3.check(li1, li2, diff)
-
-
 
 """ 
 Part 4: Dictionaries and Sets
@@ -97,8 +88,6 @@ forged_data_set = #implement this
 
 names_dict = #implement this
 
-'''Don't edit this '''
-D = q4.check(li1, li2, diff) 
 
 
 
@@ -112,9 +101,6 @@ Make a function that adds two numers x1 and x2.
 
 def addTwo(x1, x2):
     #your function here
-    
-    
-E = q5.check(addTwo)
 
 
 
@@ -132,8 +118,4 @@ Note here that numpy has already been imported as np here.
 
 li_of_li = [[1,2,3], [0,4,5], [3,4,5]]
 
-F = q6.check(li_of_li)
 
-'''Final Evaluation ''' 
-
-print(A&B&C&D&E&F)
