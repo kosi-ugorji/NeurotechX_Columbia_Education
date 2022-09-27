@@ -33,9 +33,7 @@ li = [2,3,4]
 avg = sum(li) / len(li)
 area = 0.5 * height * avg
 
-area = #to fill 
-
-
+print(avg, area)
 
 
 """
@@ -49,10 +47,9 @@ Given a random number- random_int determine if this number is in the forbidden_l
 random_int = random.randint(1,10)
 forbidden_list = [3,4,5]
 
-# The following boolean variable checks if the number is in the list.
-# Does it need to be passed into the q2.check function as an argument?
 in_forbidden_list = random_int in forbidden_list 
 
+print(random_int)
 print(in_forbidden_list)
 
 
@@ -121,6 +118,7 @@ Make a function that adds two numers x1 and x2.
 def addTwo(x1, x2):
     return x1 + x2
 
+print(addTwo(3, 4))
 
 """
 Part 6: Numpy
@@ -140,6 +138,4 @@ numpy_list = np.array(li_of_li)
 val = numpy_list[1][2]
 
 print(val)
-
-F = q6.check(li_of_li)
 
