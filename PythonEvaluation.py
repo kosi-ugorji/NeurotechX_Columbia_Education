@@ -100,6 +100,7 @@ names_dict = dict([(name, forged_data_set) for name in names])
 
 # The reverse case would not be possible since it would result in duplicate keys.
 # A dictionary does not allow duplicate keys.
+# Also, the set cannot be used as a key, it is unhashable. The key must be immutable (int, float, str, bool, tuple)
 
 print(forged_data_set)
 print(names_dict)
