@@ -30,10 +30,9 @@ Step 2: Set a variable called area to the area of a triangle calculated using
 height = 2
 li = [2,3,4]
 
-avg = sum(li) / len(li)
-area = 0.5 * height * avg
+avg = #to fill 
 
-print(avg, area)
+area = #to fill 
 
 
 """
@@ -46,12 +45,7 @@ Given a random number- random_int determine if this number is in the forbidden_l
 
 random_int = random.randint(1,10)
 forbidden_list = [3,4,5]
-
-in_forbidden_list = random_int in forbidden_list 
-
-print(random_int)
-print(in_forbidden_list)
-
+#your code here 
 
 
 """
@@ -67,18 +61,11 @@ The difference would be li1-li2:
 
 NOTE: To get this right, make sure to call your list diff
 """
-
+diff = []
 li1 = [1, 5, 6, 7]
 li2 = [1, 7, 8, 9]
-diff = []    # Alternatively this would also work in a single line:  diff = list(map(lambda x, y: x - y, li1, li2))
 
 # create a loop that goes through each element and computes a difference
-
-# Assuming that both lists are of the same size:
-for i in range(len(li1)):
-    diff.append(li1[i] - li2[i])
-
-print(diff)
 
 
 """ 
@@ -91,23 +78,10 @@ Step 2: Assign each name in the names_list to the set forged_data_list.
 (all keys are mapped to the same value- think about if this is possible in the reverse case)
 
 """
-names = ["Sarah", "John"]
+neames = ["Sarah", "John"]
 forged_data_list = [1,1,2,3,4,5,5,6,6,7]
 
-forged_data_set = set(forged_data_list)
-
-names_dict = dict([(name, forged_data_set) for name in names])
-
-# The reverse case would not be possible since it would result in duplicate keys.
-# A dictionary does not allow duplicate keys.
-# Also, the set cannot be used as a key, it is unhashable. The key must be immutable (int, float, str, bool, tuple)
-
-print(forged_data_set)
-print(names_dict)
-
-
-
-
+names_dict = #implement this
 
 """
 Part 5: Functions
@@ -117,9 +91,8 @@ Make a function that adds two numers x1 and x2.
 """
 
 def addTwo(x1, x2):
-    return x1 + x2
-
-print(addTwo(3, 4))
+    #your function here
+    
 
 """
 Part 6: Numpy
@@ -134,9 +107,3 @@ Note here that numpy has already been imported as np here.
 """
 
 li_of_li = [[1,2,3], [0,4,5], [3,4,5]]
-
-numpy_list = np.array(li_of_li)
-val = numpy_list[1][2]
-
-print(val)
-
