@@ -30,10 +30,9 @@ Step 2: Set a variable called area to the area of a triangle calculated using
 height = 2
 li = [2,3,4]
 
-avg = #to fill 
+avg =sum(li)/len(li)
 
-area = #to fill 
-
+area = avg*height
 
 
 
@@ -47,8 +46,7 @@ Given a random number- random_int determine if this number is in the forbidden_l
 
 random_int = random.randint(1,10)
 forbidden_list = [3,4,5]
-
-
+print(random_int in forbidden_list)
 
 """
 Part 3: Loops
@@ -68,7 +66,8 @@ li1 = [1, 5, 6, 7]
 li2 = [1, 7, 8, 9]
 
 # create a loop that goes through each element and computes a difference
-
+for(a,b) in zip(li1,li2):
+    diff.append(a-b)
 
 
 """ 
@@ -81,15 +80,21 @@ Step 2: Assign each name in the names_list to the set forged_data_list.
 (all keys are mapped to the same value- think about if this is possible in the reverse case)
 
 """
-neames = ["Sarah", "John"]
+names = ["Sarah", "John"]
 forged_data_list = [1,1,2,3,4,5,5,6,6,7]
 
-forged_data_set = #implement this 
+forged_data_set =set(forged_data_list) 
 
-names_dict = #implement this
-
-
-
+names_dict = {1: "Sarah",
+              1: "Sarah",
+              2: "John",
+              3: "John",
+              4: "Sarah",
+              5: "John",
+              5: "John",
+              6: "Sarah",
+              6: "Sarah",
+              7: "Sarah"}
 
 
 """
@@ -100,7 +105,7 @@ Make a function that adds two numers x1 and x2.
 """
 
 def addTwo(x1, x2):
-    #your function here
+    return x1+x2
 
 
 
@@ -115,7 +120,7 @@ Note here that numpy has already been imported as np here.
 
 
 """
-
 li_of_li = [[1,2,3], [0,4,5], [3,4,5]]
-
+np_array =np.array(li_of_li)
+print(np_array[1,2])
 
